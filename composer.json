@@ -1,0 +1,31 @@
+{
+    "name": "PRODesign/converter-client-laravel",
+    "description": "Uma adaptação da PRODesign/converter-client-php para Laravel",
+    "authors": [
+        {
+            "name": "Jose Nicodemos Maia Neto",
+            "email": "jose@nicomaia.com.br"
+        }
+    ],
+    "repositories": [
+        { "type": "composer", "url": "http://composer.pd.art.br/" }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/support": "5.2.*",
+        "PRODesign/conversor-cliente-php": "1.0.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "PRODesign\\ConversorClienteLaravel\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests"
+        ]
+    }
+}
