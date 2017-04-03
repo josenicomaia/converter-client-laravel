@@ -6,7 +6,7 @@
  * and open the template in the editor.
  */
 
-namespace PRODesign\ConversorClienteLaravel;
+namespace PRODesign\Converter\Client\PHP\Laravel;
 
 use Illuminate\Support\ServiceProvider;
 use PRODesign\Converter\Client\PHP\Domain\Converter;
